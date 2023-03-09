@@ -18,7 +18,6 @@ function App() {
 
   return (
     <div className="wrapper">
-      sanya gey
       <Header/>
       <div className="content">
         {routes /*Переход по ссылкам через router константу*/}
