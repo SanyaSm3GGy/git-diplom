@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="header">
       <div className="container">
-        <div className="header__logo">
+        {/* <div className="header__logo">
           <img width="38" alt="Pizza logo" />
           <div>
             <h1>React Pizza V2</h1>
@@ -43,7 +43,7 @@ function Header() {
             />
           </svg>
           <span></span>
-        </div>
+        </div> */}
       </div>
     </div>
   );
