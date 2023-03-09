@@ -1,6 +1,8 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
 
+import Header from "./components/Header.jsx";
+
 import Home from "./pages/Home.jsx";
 
 import "./scss/app.scss";
@@ -16,6 +18,8 @@ function App() {
 
   return (
     <div className="wrapper">
+      sanya gey
+      <Header/>
       <div className="content">
         {routes /*Переход по ссылкам через router константу*/}
       </div>
