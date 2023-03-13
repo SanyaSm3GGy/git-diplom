@@ -16,23 +16,12 @@ const HeaderTop = () => {
   };
 
   return (
-    <div>
-      <ul>
-        <li>
+    <>
+      <tr>
+        <td>
           <div className="sort__label">
-            <b>Город:</b>
+            <span>Город:</span>
             <span onClick={() => setOpen(!open)}>{cityName}</span>
-            <svg
-              width="10"
-              height="6"
-              viewBox="0 0 10 6"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M10 5C10 5.16927 9.93815 5.31576 9.81445 5.43945C9.69075 5.56315 9.54427 5.625 9.375 5.625H0.625C0.455729 5.625 0.309245 5.56315 0.185547 5.43945C0.061849 5.31576 0 5.16927 0 5C0 4.83073 0.061849 4.68424 0.185547 4.56055L4.56055 0.185547C4.68424 0.061849 4.83073 0 5 0C5.16927 0 5.31576 0.061849 5.43945 0.185547L9.81445 4.56055C9.93815 4.68424 10 4.83073 10 5Z"
-                fill="#2C2C2C"
-              />
-            </svg>
           </div>
           <div>
             {open && (
@@ -52,22 +41,31 @@ const HeaderTop = () => {
               </div>
             )}
           </div>
-        </li>
+        </td>
 
-        <li>
-          <div className="info">
-            <p className="help__desk">
-              Справочная <br />
-              8(937)371-35-15
-            </p>
-            <p className="help__desk">
-              Интернет-аптека <br />
-              8(937)371-35-15
-            </p>
-          </div>
-        </li>
-      </ul>
-    </div>
+        <td>
+          <a href="/">Справочная</a> <br />
+          <a href="/">8(937)371-35-15</a>
+        </td>
+
+        <td>
+          <a href="/">Интернет-аптека</a> <br />
+          <a href="/">8(937)371-35-15</a>
+        </td>
+
+        <td>
+          <a href="/" className="login_button">
+            <svg height="16px" width="16px" viewBox="0 0 60.671 60.671">
+              <ellipse cx="30.336" cy="12.097" rx="11.997" ry="12.097"></ellipse>
+              <path
+                d="M35.64,30.079H25.031c-7.021,0-12.714,5.739-12.714,12.821v17.771h36.037V42.9
+                        			C48.354,35.818,42.661,30.079,35.64,30.079z"></path>
+            </svg>
+            Вход или регистрация
+          </a>
+        </td>
+      </tr>
+    </>
   );
 };
 export default HeaderTop;
