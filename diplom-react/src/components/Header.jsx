@@ -2,6 +2,8 @@ import React from 'react';
 
 import HeaderTop from './headers/HeaderTop';
 
+import '../scss/components/_header.scss';
+
 function Header() {
   return (
     <div className="header">

@@ -24,9 +24,10 @@
   }
   .headerTop{
     background-color: white;
+    display: flexbox;
   }
   .headerMain{
-    background-color: #2ad1c5;
+    background-color: $blue;
   }
   .headerSub{
     background-color: white;
