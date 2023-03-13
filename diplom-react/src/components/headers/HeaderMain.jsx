@@ -1,25 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeaderMain = () => {
   return (
     <li>
       <ul>
-        <a href="/">Онлайн-заказ</a>
+        <Link to="/">Онлайн-заказ</Link>
       </ul>
       <ul>
-        <a href="/">Аптеки</a>
+        <Link to="/">Аптеки</Link>
       </ul>
       <ul>
-        <a href="/">Покупателям</a>
+        <Link to="/">Покупателям</Link>
       </ul>
       <ul>
-        <a href="/">Проекты</a>
+        <Link to="/">Проекты</Link>
       </ul>
       <ul>
-        <a href="/">Акции</a>
+        <Link to="/">Акции</Link>
       </ul>
       <ul>
-        <a href="/">О компании</a>
+        <Link to="/">О компании</Link>
       </ul>
     </li>
   );

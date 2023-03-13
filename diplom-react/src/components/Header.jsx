@@ -2,6 +2,7 @@ import React from 'react';
 
 import HeaderTop from './headers/HeaderTop';
 import HeaderMain from './headers/HeaderMain';
+import HeaderSub from './headers/HeaderSub';
 
 import '../scss/components/_header.scss';
 
@@ -19,7 +20,9 @@ function Header() {
         </div>
       </div>
       <div className="headerSub">
-        <div className="container">headerSub</div>
+        <div className="container">
+          <HeaderSub />
+        </div>
       </div>
     </div>
   );

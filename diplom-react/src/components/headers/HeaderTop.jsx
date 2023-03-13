@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../scss/components/_header.scss';
+import { Link } from 'react-router-dom';
 
 const cityList = ['Чебоксары', 'Новочебоксарск', 'Казань']; // Массив Городов
 
@@ -42,15 +43,15 @@ const HeaderTop = () => {
         </div>
       </div>
       <div>
-        <a href="/">Справочная</a> <br />
-        <a href="/">8(937)371-35-15</a>
+        <Link to="/">Справочная</Link> <br />
+        <Link to="/">8(937)371-35-15</Link>
       </div>
       <div>
-        <a href="/">Интернет-аптека</a> <br />
-        <a href="/">8(937)371-35-15</a>
+        <Link to="/">Интернет-аптека</Link> <br />
+        <Link to="/">8(937)371-35-15</Link>
       </div>
-      <div>
-        <a href="/" className="login_button">
+      <div className="loginBox">
+        <Link to="/" className="login_button">
           <svg height="16px" width="16px" viewBox="0 0 60.671 60.671">
             <ellipse cx="30.336" cy="12.097" rx="11.997" ry="12.097"></ellipse>
             <path
@@ -58,7 +59,7 @@ const HeaderTop = () => {
                         			C48.354,35.818,42.661,30.079,35.64,30.079z"></path>
           </svg>
           Вход или регистрация
-        </a>
+        </Link>
       </div>
     </>
   );
