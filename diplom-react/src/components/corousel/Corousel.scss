@@ -1,0 +1,40 @@
+.corousel {
+  padding-top: 3%;
+  width: 70%;
+  span {
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    background-color: #2ad1c5;
+    border: 2px solid #2ad1c5;
+    color: white;
+    font-size: 23px;
+    padding: 5px 13px 10px 13px;
+    border-radius: 30px;
+    transition: 0.5s;
+    &:hover {
+      border: 2px solid #2ad1c5;
+      background-color: white;
+      color: #2ad1c5;
+    }
+  }
+
+  .item {
+    display: none;
+
+    img {
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+  .active {
+    display: block !important;
+  }
+
+  .prev {
+    left: 2%;
+  }
+  .next {
+    left: 88%;
+  }
+}
