@@ -20,6 +20,9 @@ const HeaderMain = () => {
         <Link to="/">Акции</Link>
       </ul>
       <ul>
+        <Link to="/">Вакансии</Link>
+      </ul>
+      <ul>
         <Link to="/">О компании</Link>
       </ul>
     </li>

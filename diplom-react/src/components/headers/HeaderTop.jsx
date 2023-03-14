@@ -44,11 +44,15 @@ const HeaderTop = () => {
       </div>
       <div>
         <Link to="/">Справочная</Link> <br />
-        <Link to="/">8(937)371-35-15</Link>
+        <Link to="/" className="phone">
+          8(937)371-35-15
+        </Link>
       </div>
       <div>
         <Link to="/">Интернет-аптека</Link> <br />
-        <Link to="/">8(937)371-35-15</Link>
+        <Link to="/" className="phone">
+          8(937)371-35-15
+        </Link>
       </div>
       <div className="loginBox">
         <Link to="/" className="login_button">
