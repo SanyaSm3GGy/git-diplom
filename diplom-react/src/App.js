@@ -2,6 +2,7 @@ import React from 'react';
 import { useRoutes } from 'react-router-dom';
 
 import Header from './components/Header.jsx';
+import Bottom from './components/Bottom.jsx';
 
 import Home from './pages/Home.jsx';
 
@@ -22,6 +23,7 @@ function App() {
       <div className="wrapper">
         <div className="content">{routes /*Переход по ссылкам через router константу*/}</div>
       </div>
+      <Bottom />
     </>
   );
 }

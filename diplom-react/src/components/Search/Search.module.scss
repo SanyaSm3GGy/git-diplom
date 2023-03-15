@@ -7,8 +7,9 @@
   border-radius: 30px 0 0 30px;
   font-size: 18px;
   display: block;
+  transition: 1s;
 
   &:focus {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid #2ad1c5;
   }
 }

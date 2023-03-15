@@ -1,6 +1,6 @@
 .corousel {
   padding-top: 3%;
-  width: 70%;
+  width: 700px;
   span {
     cursor: pointer;
     position: relative;
@@ -24,7 +24,7 @@
 
     img {
       border-radius: 10px;
-      width: 100%;
+      width: 115%;
     }
   }
   .active {
@@ -32,9 +32,9 @@
   }
 
   .prev {
-    left: 2%;
+    left: 1%;
   }
   .next {
-    left: 88%;
+    left: 100%;
   }
 }
