@@ -133,7 +133,7 @@ const Bottom = () => {
                 />
               </svg>
             </Link>
-            <Link to="visa.com">
+            <Link to="https://mastercard.com">
               <svg
                 version="1.1"
                 id="Livello_1"
@@ -198,7 +198,7 @@ const Bottom = () => {
                 </g>
               </svg>
             </Link>
-            <Link to="visa.com">
+            <Link to="https://mastercard.com">
               <svg
                 version="1.1"
                 x="0px"
@@ -251,7 +251,7 @@ const Bottom = () => {
                 </g>
               </svg>
             </Link>
-            <Link to="visa.com">
+            <Link to="https://privetmir.ru/">
               <svg
                 width="120px"
                 height="50px"
