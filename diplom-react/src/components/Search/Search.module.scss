@@ -1,0 +1,15 @@
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px 14px 20px;
+  width: 40%;
+  margin-left: 10%;
+  padding-left: 20px;
+  border-radius: 30px 0 0 30px;
+  font-size: 18px;
+  display: block;
+  transition: 1s;
+
+  &:focus {
+    border: 1px solid #2ad1c5;
+  }
+}

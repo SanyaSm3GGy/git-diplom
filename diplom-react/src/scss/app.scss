@@ -6,3 +6,16 @@
 body {
   background-color: $background;
 }
+
+.container {
+  margin: 0 15%;
+  display: flex;
+}
+.image_bad {
+  margin-left: 10%;
+  padding-top: 5.5%;
+  img {
+    height: 400px;
+    border-radius: 10px;
+  }
+}
