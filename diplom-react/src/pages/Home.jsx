@@ -14,22 +14,22 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M47,114h60.8c3.4,0,6.2-2.7,6.2-6.1V7.5
                     		c0-3.3-2.8-6.5-6.2-6.5H47.7C44.3,1,42,4.1,42,7.5V19"></path>
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M81.8,13.5c0,2.7,1.9,4.5,4.3,4.5h14.1
                     			c2.4,0,4.3-1.8,4.3-4.5l0,0c0-2.7-1.9-4.5-4.3-4.5h-14C83.8,9,81.8,10.8,81.8,13.5L81.8,13.5z"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="93"
                 y1="9"
                 x2="93"
@@ -37,15 +37,15 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M51.1,13.5c0,2.7,1.9,4.5,4.3,4.5h14.1
                     			c2.4,0,4.3-1.8,4.3-4.5l0,0c0-2.7-1.9-4.5-4.3-4.5h-14C53.1,9,51.1,10.8,51.1,13.5L51.1,13.5z"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="63"
                 y1="9"
                 x2="63"
@@ -53,8 +53,8 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M56,48c0-2.8-2.2-5-5-5H6c-2.8,0-5,2.2-5,5v61
                     			c0,2.8,2.2,5,5,5h45c2.8,0,5-2.2,5-5V48z"></path>
               <rect
@@ -62,34 +62,34 @@ const Home = () => {
                 y="18"
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 width="37"
                 height="15"></rect>
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M12.7,32.9c0,0,0.6,10-5.5,10"></path>
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M44,32.9c0,0-0.6,10,5.5,10"></path>
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M81.8,36c0,2.7,1.9,5,4.3,5h14.1
                     			c2.4,0,4.3-2.3,4.3-5l0,0c0-2.7-1.9-5-4.3-5h-14C83.8,31,81.8,33.3,81.8,36L81.8,36z"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="93"
                 y1="31"
                 x2="93"
@@ -97,15 +97,15 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M51.1,36c0,2.7,1.9,5,4.3,5h14.1
                     			c2.4,0,4.3-2.3,4.3-5l0,0c0-2.7-1.9-5-4.3-5h-14C53.1,31,51.1,33.3,51.1,36L51.1,36z"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="63"
                 y1="31"
                 x2="63"
@@ -113,15 +113,15 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M81.8,57.5c0,2.7,1.9,5.5,4.3,5.5h14.1
                     			c2.4,0,4.3-2.8,4.3-5.5l0,0c0-2.7-1.9-5.5-4.3-5.5h-14C83.8,52,81.8,54.8,81.8,57.5L81.8,57.5z"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="93"
                 y1="52"
                 x2="93"
@@ -129,15 +129,15 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M57,63h12.5c2.4,0,4.3-2.8,4.3-5.5l0,0
                     			c0-2.7-1.9-5.5-4.3-5.5H57"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="63"
                 y1="52"
                 x2="63"
@@ -145,15 +145,15 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M81.8,79c0,2.7,1.9,5,4.3,5h14.1
                     			c2.4,0,4.3-2.3,4.3-5l0,0c0-2.7-1.9-5-4.3-5h-14C83.8,74,81.8,76.3,81.8,79L81.8,79z"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="93"
                 y1="74"
                 x2="93"
@@ -161,15 +161,15 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M57,84h12.5c2.4,0,4.3-2.3,4.3-5l0,0
                     			c0-2.7-1.9-5-4.3-5H57"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="63"
                 y1="74"
                 x2="63"
@@ -177,15 +177,15 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M81.8,101.5c0,2.7,1.9,4.5,4.3,4.5h14.1
                     			c2.4,0,4.3-1.8,4.3-4.5l0,0c0-2.7-1.9-4.5-4.3-4.5h-14C83.8,97,81.8,98.8,81.8,101.5L81.8,101.5z"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="93"
                 y1="97"
                 x2="93"
@@ -193,15 +193,15 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M57,106h12.5c2.4,0,4.3-1.8,4.3-4.5l0,0
                     			c0-2.7-1.9-4.5-4.3-4.5H57"></path>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="63"
                 y1="97"
                 x2="63"
@@ -211,15 +211,15 @@ const Home = () => {
                 y="54"
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 width="55"
                 height="49"></rect>
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="1"
                 y1="61"
                 x2="56"
@@ -227,8 +227,8 @@ const Home = () => {
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="18"
                 y1="27"
                 x2="18"
@@ -236,8 +236,8 @@ const Home = () => {
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="25"
                 y1="27"
                 x2="25"
@@ -245,8 +245,8 @@ const Home = () => {
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="32"
                 y1="27"
                 x2="32"
@@ -254,8 +254,8 @@ const Home = () => {
               <line
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 x1="39"
                 y1="27"
                 x2="39"
@@ -265,7 +265,7 @@ const Home = () => {
                 y="95"
                 fill="#45D3D3"
                 stroke="#45D3D3"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 width="1.9"
                 height="1.9"></rect>
               <rect
@@ -273,7 +273,7 @@ const Home = () => {
                 y="95"
                 fill="#45D3D3"
                 stroke="#45D3D3"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 width="1.9"
                 height="1.9"></rect>
               <rect
@@ -281,7 +281,7 @@ const Home = () => {
                 y="95"
                 fill="#45D3D3"
                 stroke="#45D3D3"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 width="1.9"
                 height="1.9"></rect>
               <rect
@@ -289,14 +289,14 @@ const Home = () => {
                 y="95"
                 fill="#45D3D3"
                 stroke="#45D3D3"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 width="1.9"
                 height="1.9"></rect>
               <polygon
                 fill="none"
                 stroke="#45D3D3"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 points="39,75 32,75 32,68 26,68 26,75 19,75
                     		19,81 26,81 26,88 32,88 32,81 39,81 	"></polygon>
               <rect
@@ -304,7 +304,7 @@ const Home = () => {
                 y="95"
                 fill="#45D3D3"
                 stroke="#45D3D3"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 width="1.9"
                 height="1.9"></rect>
               <rect
@@ -312,7 +312,7 @@ const Home = () => {
                 y="95"
                 fill="#45D3D3"
                 stroke="#45D3D3"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 width="1.9"
                 height="1.9"></rect>
               <rect
@@ -320,7 +320,7 @@ const Home = () => {
                 y="95"
                 fill="#45D3D3"
                 stroke="#45D3D3"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 width="1.9"
                 height="1.9"></rect>
               <rect
@@ -328,7 +328,7 @@ const Home = () => {
                 y="95"
                 fill="#45D3D3"
                 stroke="#45D3D3"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
                 width="1.9"
                 height="1.9"></rect>
             </svg>
@@ -342,115 +342,115 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M70.2,13.5c-1.1-0.1-1.8-0.1-2.8-0.3
                 			c-0.9-0.1-1.7-0.3-2.7-0.8c-1-0.5-2.1-1.4-2.8-1.4c-0.6-0.1-0.7,0.7-0.7,2c0.1,1.3,0.3,3.1,1.3,4.1c1,1,2.7,1.2,4.1,0.9
                 			c1.4-0.3,2.4-1.1,2.9-1.5"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M79.9,9.9c0.4-0.8,0.9-1.6,1.2-2.3
                 			C81.6,6.7,81.9,6,82,4.9c0.1-1.1,0-2.5,0.3-3.1c0.3-0.6,1-0.2,2,0.5c1,0.7,2.4,1.9,2.7,3.3c0.3,1.4-0.5,2.9-1.5,3.9
                 			c-0.4,0.4-0.8,0.7-1.2,0.9"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M71.6,11.5c-0.4-0.4-0.8-0.9-1.1-1.4
                 			c-0.5-0.7-1-1.6-1.4-2.4c-0.4-0.8-0.6-1.5-0.9-2c-0.4-0.5-0.9-0.7-1.6-0.6c-0.7,0.1-1.6,0.6-2.1,1.1c-0.4,0.6-0.4,1.3,0,1.8
                 			c0.4,0.5,1.1,0.8,1.7,1.1c0.7,0.3,1.3,0.8,2,1.3c0.7,0.5,1.4,1.2,1.9,1.7c0.2,0.2,0.3,0.4,0.4,0.5"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M73.5,10.2c-0.1-0.4-0.2-0.7-0.3-1.2
                 			c-0.3-0.9-0.6-1.8-1-2.6c-0.4-0.8-0.8-1.4-1-2c-0.1-0.6,0-1.1,0.5-1.6C72.3,2.4,73.2,2,73.9,2c0.7,0,1.3,0.5,1.4,1.1
                 			c0.2,0.6-0.1,1.3-0.2,2c-0.1,0.7-0.2,1.5-0.2,2.4c0,0.9,0,1.7,0.1,2.4"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M79,120.3c0,4,0,7.7,0.3,11.3
                 			c0.3,4.2,0.8,7.9,1,10.4c0.2,2.5,0,3.7-0.3,4.5c-0.4,0.8-1,1.2-1.7,1.5c-0.7,0.2-1.4,0.2-2.5,0c-1.1-0.3-2.7-0.9-3.3-2.5
                 			c-0.6-1.6-0.2-4.3,0.2-8.1c0.4-3.8,0.6-8.7,0.8-12.3c0-1.2,0.1-1.9,0.1-2.8"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M79.3,131.3c-0.6,0.3-1.3,0.6-1.9,0.6
                 			c-0.6,0-1.1-0.4-1.6-0.7"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M78.3,148c0.3-0.5,0.6-0.9,0.7-1.5
                 			c0.1-0.6,0-1.3-0.1-2"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M81.3,89.5c3,2.2,6,4.4,8.9,6.3
                 			c2.8,1.9,5.5,3.3,7.2,4.4c1.7,1.1,2.4,1.8,2.8,2.4c0.3,0.6,0.3,1.2,0.1,1.8c-0.2,0.5-0.5,1-1.3,1.6c-0.7,0.6-1.9,1.4-3.2,0.9
                 			c-1.3-0.4-2.9-2-5.2-4.1c-1.5-1.4-3.3-2.9-5-4.4"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M90,95.7c-0.1,0.6-0.2,1.1-0.5,1.5
                 			c-0.3,0.4-0.8,0.5-1.2,0.7"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M100.3,104.5c-0.1-0.4-0.3-0.8-0.6-1.2
                 			c-0.3-0.3-0.9-0.6-1.4-0.9"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M68,122.7c-1,3.6-1.9,7-2.6,10.3
                 			c-0.9,4-1.4,7.7-1.9,10.1c-0.5,2.4-1,3.5-1.5,4.2c-0.6,0.7-1.3,0.9-2,0.9c-0.7,0-1.4-0.1-2.4-0.7c-1-0.6-2.4-1.6-2.5-3.3
                 			c-0.1-1.7,1-4.2,2.4-7.7c1.4-3.5,3-8.1,4.1-11.5c0.5-1.5,0.8-2.5,1.1-3.6"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M65.4,132.7c-0.7,0.1-1.4,0.2-1.9,0.1
                 			c-0.5-0.2-0.9-0.6-1.3-1.1"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M59.9,148.2c0.4-0.3,0.8-0.7,1.1-1.2
                 			c0.3-0.5,0.3-1.2,0.4-2"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M73.3,93.3c-0.8,0-1.5-0.7-1.5-1.5
                 			c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5C74.8,92.6,74.1,93.3,73.3,93.3"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M69.3,83.3c-1.5-0.4-2.6-1.9-2.6-3.5c0-2,1.6-3.7,3.7-3.7 M68.1,89.9c-0.9-0.7-1.5-1.7-1.5-3c0-1.8,1.3-3,3-3.3 M69.1,61.3
                 			c-1.4-0.5-2.5-1.9-2.5-3.5c0-1.8,4-4.7,2.7-3.5c0.2-0.1-0.5-0.8,0-0.7c1.5,0.2-2.7-1.4-2.7-3c0-1.8,4.2-4.6,2.8-3.6
@@ -461,8 +461,8 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M95.4,41.2c5.3,1.1,7.2,1.2,11.7-1
                 			c2-1,3.4-2.3,4.3-4.3c0.9-2,1.2-4.8,0.5-7.4c-0.7-2.7-2.3-5.3-4.3-7.5c-2-2.2-4.2-3.9-8.1-5.7c-3.9-1.8-9.4-3.6-12.9-4.5
                 			c-3.5-0.9-5.1-0.9-7.3-1c-2.2-0.1-5.1-0.3-7,0.9c-1.9,1.3-2.9,4-2.8,6.7C70,29,69.6,40.4,69.6,52c0,10.5,0.2,20.4,0.4,27.3
@@ -473,213 +473,213 @@ const Home = () => {
                 			c1.2,1.3,2.8,2.7,3.9,3.8c0.8,0.8,6,3.5,8.8,4.2c1.5,0.4,3.1,1.2,1.9-0.4C90.1,37.2,93.7,40.9,95.4,41.2z"></path>
 
               <circle
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 cx="81.3"
                 cy="19.1"
                 r="4.2"></circle>
               <circle
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 cx="81.3"
                 cy="19.1"
                 r="4.2"></circle>
 
               <circle
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 cx="89.2"
                 cy="16.7"
                 r="3.2"></circle>
               <circle
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 cx="89.2"
                 cy="16.7"
                 r="3.2"></circle>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M77.8,16.8c-0.4-0.6-1.3-1.9-1.6-2.2"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M79.7,15.2c-0.1-0.6-0.3-1.1-0.3-1.4
                 			c-0.1-0.3-0.1-0.3-0.1-0.3"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M86.7,14.8c-0.3-0.6-0.6-1.1-0.9-1.7"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M88.9,13.5c-0.1-0.4-0.3-0.9-0.4-1.3"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M99.8,42c-1.5-0.2-2.9-0.4-4.5-0.9
                 			c-1.5-0.5-3.2-1.4-4.3-2.8c-1.2-1.4-2-3.4-2.3-5.1c-0.3-1.7-0.3-3.1-0.2-4.4"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M85.6,29.3c0.6-0.2,1.2-0.5,1.9-0.6
                 			c0.6-0.1,1.3-0.1,1.9-0.1"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M69.7,34
                 			c0,3.3,0,6.6,0,9.8c0,0,0,0,0.7,0c0.7,0,2.1-0.1,3-0.7c0.9-0.6,1.3-1.9,1.2-3.1c-0.1-1.2-0.7-2.4-1.6-3.4
                 			C72.2,35.7,70.9,34.8,69.7,34"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M78,52.5
                 			c-1.1,0.4-2.2,0.9-2.9,1.5c-0.7,0.7-1.1,1.6-1.3,2.5c-0.2,0.9-0.2,1.8,0.2,2.6c0.4,0.8,1.3,1.4,2.1,1.6c0.8,0.2,1.6,0.1,2.4,0
                 			c-0.1-1.4-0.1-2.7-0.2-4.1C78.2,55.3,78.1,53.9,78,52.5"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M73.3,63.4c1.2,0,2.3,1.6,2.3,3.6c0,2-1,3.6-2.3,3.6c-1.2,0-2.3-1.6-2.3-3.6C71.1,65.1,72.1,63.4,73.3,63.4"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M80.2,98.8c1.6-0.8,1.3-2,0.8-3.4c-1-0.3-1.6-0.6-2.7-0.5C77.7,96.6,79,98.3,80.2,98.8"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M76.3,102.1c-2.5,0.7-1.4,5.1,1.2,4C79.5,105.2,79,101.3,76.3,102.1"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M77,80.7
                 			c1.2-1.4,1.7-4.6,0.2-5.4c-1.6-0.9-4.5-1.3-2.5,2.7C75.1,78.8,76,80.4,77,80.7"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M74.4,48.2c1-0.9,1.4-1.6,0.9-3.1c-1.3-0.3-2.6-0.5-2.6,1C72.8,47.1,73.4,48.2,74.4,48.2"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M71.4,49.4c-1.9,0.5-1,2.8,0.5,2.5C73.3,51.5,72.9,49,71.4,49.4"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M99,27.6
                 			c-0.5,0.2-0.7-0.2-1,0.9c-0.4,1.5,1.6,2.8,2.9,2.3C103,30,101.2,27,99,27.6"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M107.6,23.4c-0.6-0.1-0.6-0.5-1.3,0.4c-1,1.2,0.2,3.2,1.6,3.3C110.2,27.2,109.8,23.7,107.6,23.4"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M58.1,128.2c0.4,0.4,0.7,0.7,1,1.6
                 			c0.1,0.4,0.3,1.1,0.3,1.6"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M57.6,136.1c-0.2,0.2-0.7,0.4-1,0.6
                 			c-0.9,0.4-1.9,0.7-2.9,0.5c-1.1-0.2-2.1-0.8-2.9-1.5c-0.7-0.7-1.1-1.4-1.4-2.1c-0.2-0.6-0.3-1.1,0-1.5c0.2-0.4,0.7-0.7,1-0.6
                 			c0.3,0,0.4,0.4,0.4,0.6c0,0.2,0,0.3-0.1,0.2c-0.1,0-0.3-0.2-0.4-0.2c-0.1,0-0.2,0.3-0.1,0.4c0.1,0.2,0.5,0.3,0.8,0
                 			c0.3-0.2,0.4-0.7,0.5-1.3c0.1-0.6,0.2-1.2,0.5-1.8c0.3-0.6,0.7-1.2,1.1-1.7c0.5-0.5,0.9-0.8,1.4-0.9c0.4-0.1,0.8-0.1,1.2,0
                 			c0.4,0.1,0.5,0.1,0.8,0.2"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M64.3,104.1c8.1-2.4,6.5,7.4,2.3,9.4c-4.9,2.3-7.7-4.3-6-6.9C61.3,105.4,63,104.4,64.3,104.1"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M72,114.7c0.9,0.1,1.8,0.6,1.7,2c0,0.7-0.6,1.6-1.7,1.5C70,118.1,69.4,114.4,72,114.7"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M31.9,113.4c3-2.3,4.7-3.6,7.3-6.3
                 			c1.2-1.2,2.3-2.6,2.5-4.3c0.1-0.8-0.1-1.4,0.1-2.1c0-0.2,0.1-0.3,0.2-0.4c0.2-0.1,0.5-0.1,0.6,0.1c0.5,0.6,0.6,1.8,0.5,2.5
                 			c1.4-0.5,4.2-0.2,4.3,0.3c0.2,0.7-2.1,0.8-3.2,1c1.1-0.2,3.6,0.3,3.6,0.8c0,0.5-0.7,0.7-1.2,0.6c-0.7,0-1.4-0.5-2,0
@@ -688,30 +688,30 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M67,88.6c-0.4,0.5,0,0-0.6,0.5
                 			c-3,2.2-6,4.4-8.9,6.3c-2.8,1.9-5.5,3.3-7.2,4.4c-1.7,1.1-2.4,1.8-2.8,2.4c-0.3,0.6-0.3,1.2-0.1,1.8c0.2,0.5,0.5,1,1.3,1.6
                 			c0.7,0.6,1.9,1.4,3.2,0.9c1.3-0.4,2.9-2,5.2-4.1c1.2-1.1,2.5-2.2,3.9-3.4"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M57.7,95.3c0.1,0.6,0.2,1.1,0.5,1.5
                 			c0.3,0.4,0.8,0.5,1.2,0.7"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M47.4,104.1c0.1-0.4,0.3-0.8,0.6-1.2
                 			c0.3-0.3,0.9-0.6,1.4-0.9"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M18.8,115.7c-3-0.8-5.6-1.7-8.4-3.1
                 			c-1.5-0.7-3.2-2.1-3.8-3.6c-0.3-0.7-0.3-0.9-0.7-1.7c-0.1-0.1-0.2-0.3-0.4-0.3c-0.2-0.1-0.5,0.1-0.6,0.3c-0.1,0.2-0.1,0.5-0.1,0.7
                 			c0,0.6,0.2,1.2,0.5,1.8c-1.5,0-4,0.5-4.1,1.2c0.1,0.7,2.2,0.4,3.5,0.2c-1.3,0.4-3.4,1.6-3.4,2c0,0.5,0.8,0.4,1.3,0.2
@@ -721,44 +721,44 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M10.8,95.1c-0.7,0.9-1.1,2.2-1.3,3.3
                 			c-0.3,1.3-0.3,2.7-0.3,4.1c-1-1.1-1.5-2.6-1.6-4.1c-0.1-1.2,0.1-2.6,0.4-3.8"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M23.4,115.7c0-0.4,0-0.5,0-0.9
                 			c-1.7,0-3.3-0.3-4.9-0.9c-4-1.5-7.2-4.9-8.8-8.9c-0.1-0.1-0.1-0.3-0.2-0.4c-0.1-0.1-0.3,0-0.4,0c-0.7,0.1-2.1-0.1-2.6-1.1
                 			c-0.3-0.6,0-1.5,0.6-1.8c0.4-0.2,0.8-0.4,1.6-0.1"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M38.1,99.4c0.6-0.5,1.5-0.3,2,0.4
                 			c0.5,0.7,0.3,1.6-0.3,2.2c-0.6,0.6-1.5,0.7-2.3,0.4c-1.3,3.9-3.3,7.8-6.7,10.2c-1.2,0.9-2.6,1.5-4.1,1.8c0,0.5,0.1,0.7,0.1,1.2"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M29.7,102.6c-0.1,2.6-0.8,7.6-6.9,7.9
                 			c-2.7,0.2-4.9-1.1-6.7-3.1c2.2-0.4,4.8-1.2,7-2C26.7,104,29.7,102.6,29.7,102.6"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M28,90.7c2.7,3.7,6.2,7.3,9.9,10.1l0-0.1
                 			c0.4-2.4,0.9-4.9,0.4-7.2c-0.5-2.4-2.2-4.7-4.6-5.1c-1.3-0.2-2.6,0.1-3.9,0.5"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M29.4,89.8c-2,1.5-4.2,2.6-6.6,3.5
                 			c-2.4,0.9-5,1.5-7.6,1.8c-2.8,0.3-5.7,0.3-8.3-0.7c-2.6-1-4.9-3.2-5.4-6c1.8,0.8,3.8,1.2,5.7,1.2c-1.5-0.7-2.6-2-3.3-3.4
                 			c2.5,1.2,5.2,1.9,8,2c-2-1-3.5-2.9-4-5.1c2.1,1.4,4.6,2.2,7.1,2.4c2.6,0.2,5.3-0.2,7.9,0c2.6,0.2,5.5,1.3,6.7,3.6
@@ -766,59 +766,59 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M22.7,143.4c0.8,0.2,1.6,0.7,2.3,1.3
                 			c0.1,0.1,0.3,0.3,0.3,0.4c0,0.3-0.2,0.5-0.4,0.7c-0.7,0.5-1.6,0.6-2.5,0.7c-0.7,0-1.4,0-2-0.2c-0.2-0.1-0.4-0.2-0.6-0.3
                 			c-0.3-0.3-0.3-0.8-0.3-1.2c0-0.2,0-0.3,0.1-0.5c0.1-0.3,0.2-0.5,0.6-0.6"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M23.7,135.8c0.1,2.5,0.2,4.5-1,7.7
                 			c0.4,0.2,0.9,0.4,1.2,0.7c0.1,0.1,0.3,0.2,0.3,0.4c0,0.3-0.3,0.4-0.5,0.5c-0.9,0.3-2,0.4-2.9,0.1c-0.2-0.1-0.5-0.1-0.6-0.4
                 			c-0.1-0.2-0.1-0.4,0-0.6c0.7-4,0.9-7.8,0.5-9.1"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M4.4,127.7c-0.3-0.8-0.8-1.5-1.4-2.1
                 			c-0.1-0.1-0.3-0.2-0.5-0.3c-0.3,0-0.5,0.2-0.6,0.5c-0.4,0.8-0.4,1.7-0.3,2.6c0.1,0.7,0.2,1.4,0.4,2c0.1,0.2,0.2,0.4,0.4,0.5
                 			c0.3,0.2,0.8,0.2,1.2,0.1c0.2,0,0.3-0.1,0.5-0.2c0.3-0.2,0.4-0.3,0.5-0.6"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M11.3,125.9c-2.4,0.1-4.6,0.7-6.8,1.9
                 			c-0.2-0.4-0.5-0.8-0.8-1.1c-0.1-0.1-0.3-0.2-0.5-0.2c-0.3,0-0.4,0.3-0.4,0.6c-0.2,1-0.1,2,0.2,2.9c0.1,0.2,0.2,0.5,0.4,0.6
                 			c0.2,0.1,0.4,0,0.6,0c2.7-0.8,5.4-1.6,8.2-1.7"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M19.3,132.4c0.3-1.7,0.3-1.6,0.8-3.2
                 			c-2.2,0.1-2.8,0.1-5.1,0.3"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M26.3,127.9c-0.1,2.7,0,3.1-0.8,5.6"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M13,124c2-0.4,2-0.6,3.9-1"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M18.9,132.6c-0.1,0.3-0.1,0.7-0.2,1
                 			c-0.1,0.3-0.1,0.5-0.1,0.5c0,0.1,0,0.1,0.1,0.1c0.1,0.1,0.3,0.2,0.7,0.3c0.4,0.2,0.9,0.3,1.4,0.5c0.6,0.2,1.2,0.3,1.7,0.4
                 			c0.5,0.1,1,0.2,1.3,0.2c0.3,0,0.4,0,0.6,0c0.1,0,0.3,0,0.4-0.1c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.2,0.2-0.5,0.3-0.9
@@ -827,75 +827,75 @@ const Home = () => {
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M12.7,123.8c-0.3,0.1-0.7,0.3-1,0.4
                 			c-0.3,0.1-0.4,0.2-0.5,0.2c-0.1,0-0.1,0-0.1,0.2c0,0.1,0,0.4,0.1,0.7c0,0.4,0.1,0.9,0.3,1.4c0.1,0.5,0.3,1.1,0.5,1.6
                 			c0.2,0.5,0.3,0.9,0.5,1.1c0.1,0.3,0.2,0.4,0.3,0.5c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.2,0.1,0.4,0.1c0.2,0,0.6-0.1,0.9-0.2
                 			c0.3-0.1,0.7-0.2,0.9-0.3c0.2-0.1,0.2-0.1,0-0.3c-0.2-0.3-0.6-0.8-1-1.6c-0.4-0.8-0.8-2-1-2.7c-0.2-0.8-0.1-1.2-0.1-1.3
                 			C13,123.6,12.9,123.7,12.7,123.8z"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M87.9,16.2c0.1,0,0.2,0.1,0.2,0.2c0,0.1-0.1,0.2-0.2,0.2c-0.1,0-0.2-0.1-0.2-0.2C87.7,16.3,87.8,16.2,87.9,16.2"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M80.8,18.6c0.1,0,0.2,0.1,0.2,0.2c0,0.1-0.1,0.2-0.2,0.2c-0.1,0-0.2-0.1-0.2-0.2C80.5,18.7,80.7,18.6,80.8,18.6"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M33.3,116.1c-0.7,0.6-1.4,1.2-2.1,1.7
                 			c-0.2,0.1-0.4,0.3-0.5,0.5c-0.1,0.2-0.2,0.4-0.3,0.7c-0.8,2.9-1.5,5.9-3.1,8.4c-0.1,0.2-0.2,0.3-0.4,0.4c-0.3,0.1-0.6,0-0.9,0
                 			c-3.3-1.1-6.7-2.2-9.1-4.7c1.2-1.4,2.5-2.7,3.8-4c-1-0.2-1.8-0.4-2.8-0.7c0.3-1,0.6-1.9,0.9-3c2.5,0.5,4.4,0.2,6.5,0.2
                 			c0.7,0,1.5,0,2.2-0.2c1.6-0.4,3-1.4,4.3-2.3C31.8,113.1,32.7,115.1,33.3,116.1z"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M55.8,140.8c0,0,1.2,3.7,7.6,3"></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
                 			M72.2,142.2c0,0,2.4,3,8.1,0.2"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M16.6,99.7c0,0-1.7-2.2-4.6-0.3"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M18.9,102.6c0,0-1.5-3.6,2.4-1.4"></path>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M23.9,98.1c0,0,1.9-3,4.5-0.4"></path>
             </svg>
             <div className="card-body">
@@ -906,12 +906,12 @@ const Home = () => {
           <div className="card col-2">
             <svg x="0px" y="0px" width="100px" height="100px" viewBox="0 0 121 122">
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="
 		M62.8,111.8c0.7,1,1.5,2,2.5,3.1c6.6,6.5,17.7,6.3,24.3-0.5c4.6-4.6,5.9-10.9,4.6-16.5c-7.6-9-18.9-14.8-31.4-15.3V111.8z
 		 M26.1,99.1c-0.3,1.4-0.5,2.7-0.5,4.3c0,9.5,7.8,17.2,17.3,17c6.1-0.2,11.6-3.4,14.6-8.3V82.6C45,83.6,33.8,89.9,26.1,99.1
@@ -935,15 +935,15 @@ const Home = () => {
                 y="1.8"
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 width="40.3"
                 height="23.4"></rect>
               <path
                 fill="none"
                 stroke="#2AD1C5"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
                 d="M36.3,1.8h-12v22.5C11.7,24.4,1.4,34.7,1.4,47.3
 			s10.3,22.9,22.9,23.1v13.1c0,4.8,3.8,8.8,8.8,8.8h45.2c4.8,0,8.8-4,8.8-8.8V70.4c9.7,0.3,17.5,8.3,17.5,18c0,9.8-8.2,18-18,18
 			H68.8c-4-3.2-6.3-7.2-13.1-7.2c-6.9,0-9.2,4.2-13.4,7.4c-0.9,0.6-1.8,1.2-1.8,2.5s0.9,1.8,1.8,2.5c4.2,3.2,6.5,7.4,13.4,7.4
