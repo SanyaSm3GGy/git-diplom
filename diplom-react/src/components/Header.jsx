@@ -10,19 +10,13 @@ function Header() {
   return (
     <div className="header">
       <div className="headerTop">
-        <div className="container">
-          <HeaderTop />
-        </div>
+        <HeaderTop />
       </div>
       <div className="headerMain">
-        <div className="container">
-          <HeaderMain />
-        </div>
+        <HeaderMain />
       </div>
       <div className="headerSub">
-        <div className="container">
-          <HeaderSub />
-        </div>
+        <HeaderSub />
       </div>
     </div>
   );
