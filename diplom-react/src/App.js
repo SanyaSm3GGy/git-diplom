@@ -9,6 +9,7 @@ import Header from './components/Header.jsx';
 
 import Home from './pages/Home.jsx';
 import Info from './pages/Info';
+import Catalog from './pages/Catalog';
 
 function App() {
   const routes = useRoutes([
@@ -18,8 +19,12 @@ function App() {
       element: <Home />, //домашняя страница
     },
     {
-      path: '/',
-      element: <Info />, //домашняя страница
+      path: '/info',
+      element: <Info />,
+    },
+    {
+      path: '/catalog',
+      element: <Catalog />,
     },
   ]);
 
