@@ -8,6 +8,7 @@ import Header from './components/Header.jsx';
 // import Bottom from './components/Bottom.jsx';
 
 import Home from './pages/Home.jsx';
+import Info from './pages/Info';
 
 function App() {
   const routes = useRoutes([
@@ -15,6 +16,10 @@ function App() {
     {
       path: '/',
       element: <Home />, //домашняя страница
+    },
+    {
+      path: '/',
+      element: <Info />, //домашняя страница
     },
   ]);
 
