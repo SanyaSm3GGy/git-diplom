@@ -30,7 +30,7 @@ const HeaderSub = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
                 <Nav.Link>
-                  <Link className="myBut" to="/">
+                  <Link className="myBut" to="/catalog">
                     Каталог
                   </Link>
                 </Nav.Link>

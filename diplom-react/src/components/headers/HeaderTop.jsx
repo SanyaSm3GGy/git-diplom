@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-const cityList = ['Чебоксары', 'Новочебоксарск', 'Казань']; // Массив Городов
+const cityList = ['Чебоксары', 'Новочебоксарск']; // Массив Городов
 
 const HeaderTop = () => {
   const [activeCity, setActiveCity] = React.useState(0);
@@ -23,7 +23,6 @@ const HeaderTop = () => {
               <NavDropdown title="Выбрать город" id="basic-nav-dropdown">
                 <NavDropdown.Item onClick={() => setActiveCity(0)}>Чебоксары</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => setActiveCity(1)}>Новочебоксарск</NavDropdown.Item>
-                <NavDropdown.Item onClick={() => setActiveCity(2)}>Казань</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="choosed">{cityName}</Nav.Link>
               <Nav.Link>

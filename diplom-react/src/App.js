@@ -10,6 +10,7 @@ import Header from './components/Header.jsx';
 import Home from './pages/Home.jsx';
 import Info from './pages/Info';
 import Catalog from './pages/Catalog';
+import LekarstvaIbad from './pages/CatalogPages/Lekarstva_I_Bad';
 
 function App() {
   const routes = useRoutes([
@@ -25,6 +26,10 @@ function App() {
     {
       path: '/catalog',
       element: <Catalog />,
+    },
+    {
+      path: '/lekarstva_i_bad',
+      element: <LekarstvaIbad />,
     },
   ]);
 

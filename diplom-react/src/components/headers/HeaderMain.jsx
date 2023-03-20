@@ -11,7 +11,7 @@ const HeaderMain = () => {
       <Nav className="justify-content-center" bg="#2ad1c5">
         <Nav.Item>
           <Nav.Link>
-            <Link to="/"> Онлайн заказ </Link>
+            <Link to="/catalog"> Онлайн заказ </Link>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
