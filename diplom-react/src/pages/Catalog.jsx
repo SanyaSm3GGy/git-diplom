@@ -333,7 +333,7 @@ const Catalog = () => {
                 height="1.9"></rect>
             </svg>
             <div className="card-body">
-              <Link to="/">
+              <Link to="/lekarstva_i_bad">
                 <h5 className="card-title">Лекарства и БАД</h5>
               </Link>
             </div>

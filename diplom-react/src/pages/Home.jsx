@@ -2,6 +2,7 @@ import React from 'react';
 import Corousel from '../components/corousel/Corousel';
 import Container from 'react-bootstrap/Container';
 import { Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -333,7 +334,9 @@ const Home = () => {
                 height="1.9"></rect>
             </svg>
             <div className="card-body">
-              <h5 className="card-title">Лекарства и БАД</h5>
+              <Link to="/lekarstva_i_bad">
+                <h5 className="card-title">Лекарства и БАД</h5>
+              </Link>
             </div>
           </div>
 

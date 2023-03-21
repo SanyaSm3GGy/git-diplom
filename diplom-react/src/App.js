@@ -11,6 +11,7 @@ import Home from './pages/Home.jsx';
 import Info from './pages/Info';
 import Catalog from './pages/Catalog';
 import LekarstvaIbad from './pages/CatalogPages/Lekarstva_I_Bad';
+import HeaderSub from './components/headers/HeaderSub';
 
 function App() {
   const routes = useRoutes([
@@ -36,6 +37,7 @@ function App() {
   return (
     <>
       <Header />
+      <HeaderSub />
       <div className="wrapper">
         <div className="content">{routes /*Переход по ссылкам через router константу*/}</div>
       </div>

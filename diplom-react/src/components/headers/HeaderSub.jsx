@@ -10,7 +10,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 const HeaderSub = () => {
   return (
     <>
-      <Navbar sticky="top" bg="White" expand="xl" className="mb-3">
+      <Navbar sticky="top" bg="White" expand="xl" className="mb-3 headerSub">
         <Container>
           <Navbar.Brand>
             <Link to="/" className="logo">
@@ -30,7 +30,7 @@ const HeaderSub = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
                 <Nav.Link>
-                  <Link className="myBut" to="/catalog">
+                  <Link className="button" to="/catalog">
                     Каталог
                   </Link>
                 </Nav.Link>
@@ -47,7 +47,7 @@ const HeaderSub = () => {
               </Nav>
               <Nav>
                 <Nav.Link>
-                  <Link className="myBut" to="/">
+                  <Link className="button" to="/">
                     Корзина
                   </Link>
                 </Nav.Link>
