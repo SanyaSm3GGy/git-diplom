@@ -67,6 +67,7 @@ body {
 }
 
 .headerSub {
+  z-index: 1 !important;
   background-color: white;
   border-bottom: 1px solid $gray-line;
   .logo {
@@ -82,13 +83,13 @@ body {
   .search {
     font-size: 18px;
     color: white;
-    border: 1px solid $blue;
+    border: 1px solid $blue !important;
     padding: 10px 20px;
     border-radius: 0px 30px 30px 0px;
-    background-color: $blue;
+    background-color: $blue !important;
     transition: 0.2s;
     &:hover {
-      background-color: white;
+      background-color: white !important;
       color: $blue;
       border: 1px solid $blue;
     }

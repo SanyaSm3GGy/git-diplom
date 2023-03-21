@@ -36,7 +36,7 @@ const FilterCard = () => {
                 </div>
               </div>
               <div className="slider">
-                <Slider defaultValue={range} onChange={handleChanges} valueLabelDisplay="auto" />
+                <Slider value={range} onChange={handleChanges} valueLabelDisplay="auto" />
               </div>
             </div>
           </div>
@@ -47,13 +47,13 @@ const FilterCard = () => {
             <div className="scroll-wrapper">
               <div className="scrollbar-inner">
                 <select className="input_select" name="age_from" id="">
-                  <option value="">Все</option>
-                  <option value="1">От 0 мес.</option>
-                  <option value="2">От 6 мес.</option>
-                  <option value="3">от 1 года</option>
-                  <option value="4">От 10 лет</option>
-                  <option value="4">От 14 лет</option>
-                  <option value="4">От 18 лет</option>
+                  <option defaultValue="">Все</option>
+                  <option defaultValue="1">От 0 мес.</option>
+                  <option defaultValue="2">От 6 мес.</option>
+                  <option defaultValue="3">от 1 года</option>
+                  <option defaultValue="4">От 10 лет</option>
+                  <option defaultValue="4">От 14 лет</option>
+                  <option defaultValue="4">От 18 лет</option>
                 </select>
               </div>
             </div>
@@ -125,7 +125,10 @@ const FilterCard = () => {
         </div>
       </div>
       <div className="filter-action">
-        <div className="filter-result"></div>
+        <div className="filter-result">
+          <span>Найдено: </span>
+          <span> 1000</span>
+        </div>
         <div className="filter-buttons">
           <button className="filter-action-item button">Применить</button>
           <button className="filter-action-item button-gray">Сбросить</button>

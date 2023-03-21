@@ -41,7 +41,7 @@ const HeaderMain = () => {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link>
-            <Link to="/"> О компании </Link>
+            <Link to="/info"> О компании </Link>
           </Nav.Link>
         </Nav.Item>
       </Nav>
