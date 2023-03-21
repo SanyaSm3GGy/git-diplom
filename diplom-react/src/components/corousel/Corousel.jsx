@@ -10,7 +10,7 @@ const Corousel = () => {
       <Carousel className="mySlider">
         <Carousel.Item style={{ height: '100%' }}>
           <img
-            style={{ borderRadius: '20px' }}
+            style={{ borderRadius: '20px', height: '640px' }}
             className="d-block w-100"
             src={firstIMG}
             alt="firstimage"
@@ -18,7 +18,7 @@ const Corousel = () => {
         </Carousel.Item>
         <Carousel.Item style={{ height: '100%' }}>
           <img
-            style={{ borderRadius: '20px' }}
+            style={{ borderRadius: '20px', height: '640px' }}
             className="d-block w-100"
             src={secondIMG}
             alt="secondimage"
@@ -26,7 +26,7 @@ const Corousel = () => {
         </Carousel.Item>
         <Carousel.Item style={{ height: '100%' }}>
           <img
-            style={{ borderRadius: '20px' }}
+            style={{ borderRadius: '20px', height: '640px' }}
             className="d-block w-100"
             src={thirdIMG}
             alt="thirdimage"
