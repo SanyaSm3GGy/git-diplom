@@ -14,19 +14,19 @@ const Info = () => {
           <h2>Преимущества</h2>
           <Row className="justify-content-center">
             <div className="card col-3">
-              <img src={Img1} alt="image" />
+              <img src={Img1} alt="image1" />
               <div className="card-body">
                 <h5 className="card-title">Ассортимент более 60000 товаров</h5>
               </div>
             </div>
             <div className="card  col-3">
-              <img src={Img2} alt="image" />
+              <img src={Img2} alt="image2" />
               <div className="card-body">
                 <h5 className="card-title">Акции и скидки</h5>
               </div>
             </div>
             <div className="card col-3">
-              <img src={Img3} alt="image" />
+              <img src={Img3} alt="image3" />
               <div className="card-body">
                 <h5 className="card-title">2 аптеки в одном регионе</h5>
               </div>

@@ -333,7 +333,7 @@ const Catalog = () => {
                 height="1.9"></rect>
             </svg>
             <div className="card-body">
-              <Link to="/lekarstva_i_bad">
+              <Link to="/lekarstva_i_bad" className="textDecorationNone">
                 <h5 className="card-title">Лекарства и БАД</h5>
               </Link>
             </div>
@@ -901,7 +901,7 @@ const Catalog = () => {
                 d="M23.9,98.1c0,0,1.9-3,4.5-0.4"></path>
             </svg>
             <div className="card-body">
-              <Link to="/">
+              <Link to="/" className="textDecorationNone">
                 <h5 className="card-title">Мама и малыш</h5>
               </Link>
             </div>
@@ -929,7 +929,7 @@ const Catalog = () => {
   c-4.4-4.4-10.5-5.8-16.1-4.3c-8.7,10.2-21.1,17.2-35.2,18v14.1L111.1,57.2z"></path>
             </svg>
             <div className="card-body">
-              <Link to="/">
+              <Link to="/" className="textDecorationNone">
                 <h5 className="card-title">Косметика</h5>
               </Link>
             </div>
@@ -993,7 +993,7 @@ v0.5H54v-1.4h-3.4c0-0.5,0.2-0.8,0.5-1.1c0.2-0.3,0.5-0.6,0.8-0.9c0.3-0.3,0.8-0.6,
 c0.2-0.5,0.3-0.9,0.3-1.5c0-0.5-0.2-0.9-0.5-1.4C53.7,58.1,53.4,57.8,52.9,57.5z"></path>
             </svg>
             <div className="card-body">
-              <Link to="/">
+              <Link to="/" className="textDecorationNone">
                 <h5 className="card-title">Медицинская техника</h5>
               </Link>
             </div>
@@ -1007,7 +1007,7 @@ c0.2-0.5,0.3-0.9,0.3-1.5c0-0.5-0.2-0.9-0.5-1.4C53.7,58.1,53.4,57.8,52.9,57.5z"><
                 fill="#45D3D3"></path>
             </svg>
             <div className="card-body">
-              <Link to="/">
+              <Link to="/" className="textDecorationNone">
                 <h5 className="card-title">Сертификаты</h5>
               </Link>
             </div>

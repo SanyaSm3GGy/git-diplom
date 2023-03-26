@@ -10,39 +10,39 @@ const HeaderMain = () => {
     <Container>
       <Nav className="justify-content-center" bg="#2ad1c5">
         <Nav.Item>
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/catalog"> Онлайн заказ </Link>
-          </Nav.Link>
+          </div>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/"> Аптеки </Link>
-          </Nav.Link>
+          </div>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/"> Покупателям </Link>
-          </Nav.Link>
+          </div>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/"> Сотрудничество </Link>
-          </Nav.Link>
+          </div>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/"> Проекты </Link>
-          </Nav.Link>
+          </div>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/"> Акции </Link>
-          </Nav.Link>
+          </div>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/info"> О компании </Link>
-          </Nav.Link>
+          </div>
         </Nav.Item>
       </Nav>
     </Container>

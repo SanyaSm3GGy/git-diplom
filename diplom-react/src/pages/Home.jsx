@@ -334,7 +334,7 @@ const Home = () => {
                 height="1.9"></rect>
             </svg>
             <div className="card-body">
-              <Link to="/lekarstva_i_bad">
+              <Link to="/lekarstva_i_bad" className="textDecorationNone">
                 <h5 className="card-title">Лекарства и БАД</h5>
               </Link>
             </div>

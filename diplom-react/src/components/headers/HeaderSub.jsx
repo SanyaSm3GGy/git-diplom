@@ -29,11 +29,9 @@ const HeaderSub = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
-                <Nav.Link>
-                  <Link className="button" to="/catalog">
-                    Каталог
-                  </Link>
-                </Nav.Link>
+                <Link className="button catalogbtn" to="/catalog">
+                  Каталог
+                </Link>
 
                 <Form className="d-flex">
                   <Form.Control
@@ -46,11 +44,9 @@ const HeaderSub = () => {
                 </Form>
               </Nav>
               <Nav>
-                <Nav.Link>
-                  <Link className="button" to="/">
-                    Корзина
-                  </Link>
-                </Nav.Link>
+                <Link className="button" to="/">
+                  Корзина
+                </Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
