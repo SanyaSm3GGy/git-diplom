@@ -38,16 +38,16 @@ body {
 }
 .button {
   font-size: 16px;
-  text-decoration: none;
-  color: white;
-  border: 1px solid $blue;
-  padding: 10px 20px;
-  border-radius: 30px;
-  background-color: $blue;
-  transition: 0.5s;
+  text-decoration: none !important;
+  color: white !important;
+  border: 1px solid $blue !important;
+  padding: 10px 20px !important;
+  border-radius: 30px !important;
+  background-color: $blue !important;
+  transition: 0.5s !important;
   &:hover {
-    background-color: white;
-    color: $blue;
+    background-color: white !important;
+    color: $blue !important;
   }
 }
 .button-gray {

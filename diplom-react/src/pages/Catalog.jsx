@@ -930,7 +930,7 @@ const Catalog = () => {
             </svg>
             <div className="card-body">
               <Link to="/">
-                <h5 className="card-title">Мама и малыш</h5>
+                <h5 className="card-title">Косметика</h5>
               </Link>
             </div>
           </div>

@@ -927,7 +927,7 @@ const Home = () => {
 		c-4.4-4.4-10.5-5.8-16.1-4.3c-8.7,10.2-21.1,17.2-35.2,18v14.1L111.1,57.2z"></path>
             </svg>
             <div className="card-body">
-              <h5 className="card-title">Мама и малыш</h5>
+              <h5 className="card-title">Косметика</h5>
             </div>
           </div>
 
