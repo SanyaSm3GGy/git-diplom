@@ -4,7 +4,7 @@ import FilterCard from '../../components/filterCard/FilterCard';
 import CardItem from '../../components/CardItem/CardItem';
 import { Link } from 'react-router-dom';
 
-const Lekarstva_i_bad = () => {
+const Sertificats = () => {
   const items = [
     {
       name: 'Аспирин',
@@ -39,7 +39,7 @@ const Lekarstva_i_bad = () => {
               <Link to="/catalog">Каталог</Link>
             </li>
             <li className="breadcrumb-item active" aria-current="page">
-              Лекарства и БАД
+              Сертификаты
             </li>
           </ol>
         </nav>
@@ -62,4 +62,4 @@ const Lekarstva_i_bad = () => {
   );
 };
 
-export default Lekarstva_i_bad;
+export default Sertificats;
