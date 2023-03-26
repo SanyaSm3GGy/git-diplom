@@ -1,9 +1,9 @@
 import React from 'react';
 import Corousel1 from '../components/corousel/Corousel1';
 import { Row } from 'react-bootstrap';
-import Img1 from '../assets/img/41.png';
-import Img2 from '../assets/img/42.png';
-import Img3 from '../assets/img/43.png';
+import Img1 from '../assets/img/41.jpg';
+import Img2 from '../assets/img/42.jpg';
+import Img3 from '../assets/img/43.jpg';
 import Container from 'react-bootstrap/Container';
 const Info = () => {
   return (
