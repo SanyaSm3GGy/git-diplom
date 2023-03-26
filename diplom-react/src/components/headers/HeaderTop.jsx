@@ -35,7 +35,7 @@ const HeaderTop = () => {
             </Nav>
             <Nav>
               <div className="nav-link">
-                <Link to="/" className="login">
+                <Link to="/login" className="login">
                   <svg height="16px" width="16px" viewBox="0 0 60.671 60.671">
                     <ellipse cx="30.336" cy="12.097" rx="11.997" ry="12.097"></ellipse>
                     <path

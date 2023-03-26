@@ -17,6 +17,7 @@ import MamaIMalish from './pages/CatalogPages/MamaIMalish';
 import Cosmetics from './pages/CatalogPages/Cosmetics';
 import Technics from './pages/CatalogPages/Technics';
 import Sertificats from './pages/CatalogPages/Sertificats';
+import Login from './pages/Login';
 
 function App() {
   const routes = useRoutes([
@@ -52,6 +53,10 @@ function App() {
     {
       path: '/Sertificats',
       element: <Sertificats />,
+    },
+    {
+      path: '/login',
+      element: <Login />,
     },
   ]);
 
