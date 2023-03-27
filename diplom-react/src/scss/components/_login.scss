@@ -9,12 +9,11 @@
   }
 }
 .login-box {
-  display: flex;
   width: 40%;
-  justify-content: center;
-  align-items: center;
   padding: 50px 20px !important;
   form {
+    margin-top: 50px;
+    position: relative;
     width: 100%;
     .input-box {
       margin-top: 10px;
@@ -35,11 +34,13 @@
         left: 5px;
         top: 40%;
         transition: 0.5s;
+        color: $blue;
       }
       .icon {
         position: absolute;
         right: 5px;
         top: 30%;
+        fill: $blue;
       }
     }
     .input-box input:focus ~ label,
@@ -48,7 +49,44 @@
     }
   }
 }
-.checkbox {
-  display: unset !important;
-  width: auto !important;
+
+.rememberMe {
+  position: relative;
+  margin: 50px;
+  .checkbox {
+    display: unset !important;
+    width: auto !important;
+    margin-right: 10px;
+    accent-color: $blue;
+    content: '✓';
+  }
+  a {
+    position: absolute;
+    right: 0%;
+    text-decoration: none;
+    color: $blue;
+    &:hover {
+      color: $blue !important;
+      border-bottom: 1px solid $blue !important;
+    }
+  }
+}
+
+.autorizate {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.registerlink {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    color: $blue;
+    &:hover {
+      color: $blue !important;
+      border-bottom: 1px solid $blue !important;
+    }
+  }
 }

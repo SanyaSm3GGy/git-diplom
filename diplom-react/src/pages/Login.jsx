@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import Card from 'react-bootstrap/Card';
 
@@ -43,8 +44,14 @@ const Login = () => {
               <input type="checkbox" className="checkbox" />
               Запомнить меня
             </label>
+            <Link>Забыли пароль?</Link>
           </div>
-          <button className="button">Войти</button>
+          <div className="autorizate">
+            <button className="button login-button">Войти</button>
+          </div>
+          <div className="registerlink">
+            <Link>Или зарегестрироваться</Link>
+          </div>
         </form>
       </Card>
     </Container>
