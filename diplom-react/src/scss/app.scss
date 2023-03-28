@@ -122,3 +122,13 @@ body {
 .textDecorationNone {
   text-decoration: none;
 }
+
+.breadcrumb-item {
+  a {
+    color: $blue !important;
+  }
+}
+
+.bold-title {
+  font-weight: bold !important;
+}

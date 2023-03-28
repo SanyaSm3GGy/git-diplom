@@ -8,7 +8,7 @@ const CardItem = ({ name, price, img, have, description1, description2, descript
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={img} />
         <Card.Body>
-          <Card.Title>{name}</Card.Title>
+          <Card.Title className="bold-title">{name}</Card.Title>
           <Card.Text>
             {description1}
             <br />
