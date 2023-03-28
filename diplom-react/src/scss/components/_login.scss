@@ -11,6 +11,9 @@
 .login-box {
   box-shadow: 0px 0px 20px #b6b6b6;
   width: 40%;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
   padding: 50px 20px !important;
   form {
     margin-top: 50px;
@@ -55,6 +58,9 @@
 .rememberMe {
   position: relative;
   margin: 50px 50px 0 50px;
+  @media (max-width: 500px) {
+    display: block;
+  }
   .checkbox {
     display: unset !important;
     width: auto !important;
@@ -67,6 +73,9 @@
     right: 0%;
     text-decoration: none;
     color: $blue;
+    @media (max-width: 500px) {
+      position: initial;
+    }
     &:hover {
       color: $blue !important;
       border-bottom: 1px solid $blue !important;
@@ -83,6 +92,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
+
   a {
     text-decoration: none;
     color: $blue;
