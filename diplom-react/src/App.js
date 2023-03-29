@@ -11,6 +11,7 @@ import Home from './pages/Home.jsx';
 import Info from './pages/Info';
 import Catalog from './pages/Catalog';
 import HeaderSub from './components/headers/HeaderSub';
+import Stock from './pages/Stock'
 
 import LekarstvaIbad from './pages/CatalogPages/Lekarstva_I_Bad';
 import MamaIMalish from './pages/CatalogPages/MamaIMalish';
@@ -29,6 +30,10 @@ function App() {
     {
       path: '/info',
       element: <Info />,
+    },
+    {
+      path: '/Stock',
+      element: <Stock />,
     },
     {
       path: '/catalog',

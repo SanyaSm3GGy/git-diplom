@@ -5,10 +5,21 @@ import Img1 from '../assets/img/41.jpg';
 import Img2 from '../assets/img/42.jpg';
 import Img3 from '../assets/img/43.jpg';
 import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
 const Info = () => {
   return (
     <>
       <Container>
+      <nav aria-label="breadcrumb">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item">
+              <Link to="/">Главная</Link>
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
+              Каталог
+            </li>
+          </ol>
+        </nav>
         <Corousel1 />
         <div className="infoBlock">
           <h2>Преимущества</h2>
