@@ -36,7 +36,7 @@ const HeaderMain = () => {
         </Nav.Item>
         <Nav.Item>
           <div className="nav-link">
-            <Link to="/"> Акции </Link>
+            <Link to="/stock"> Акции </Link>
           </div>
         </Nav.Item>
         <Nav.Item>
