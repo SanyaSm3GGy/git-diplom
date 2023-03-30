@@ -58,16 +58,16 @@ body {
 .button-gray {
   font-size: 16px;
   text-decoration: none;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 30px;
-  background-color: #9a9a9a;
-  transition: 0.5s;
-  border: 1px solid #9a9a9a;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 30px !important;
+  background-color: #9a9a9a !important;
+  transition: 0.5s !important;
+  border: 1px solid #9a9a9a !important;
   &:hover {
-    background-color: white;
-    color: rgb(180, 24, 24);
-    border: 1px solid rgb(180, 24, 24);
+    background-color: white !important;
+    color: rgb(180, 24, 24) !important;
+    border: 1px solid rgb(180, 24, 24) !important;
   }
 }
 

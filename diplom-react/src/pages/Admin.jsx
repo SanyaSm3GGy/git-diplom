@@ -27,8 +27,18 @@ const Admin = () => {
         {item.map((obj, index) => (
           <Col md="3" key={index}>
             <CardItem key={index} {...obj} />
+            <Button
+              className="button button-gray w-100"
+              key={index}
+              style={{
+                boxShadow: '0px 0px 20px #b6b6b6 ',
+                marginLeft: '12px',
+              }}>
+              Удалить
+            </Button>
           </Col>
         ))}
+
         <Card style={{ width: '18rem' }}>
           <Card.Body>
             <Card.Title className="bold-title">Создать</Card.Title>
