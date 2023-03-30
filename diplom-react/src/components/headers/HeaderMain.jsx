@@ -16,7 +16,7 @@ const HeaderMain = () => {
         </Nav.Item>
         <Nav.Item>
           <div className="nav-link">
-            <Link to="/"> Аптеки </Link>
+            <Link to="/map"> Аптеки </Link>
           </div>
         </Nav.Item>
         <Nav.Item>

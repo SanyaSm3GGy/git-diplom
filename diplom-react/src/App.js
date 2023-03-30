@@ -20,6 +20,7 @@ import Technics from './pages/CatalogPages/Technics';
 import Sertificats from './pages/CatalogPages/Sertificats';
 import Login from './pages/Login';
 import Admin from './pages/Admin';
+import Map from './pages/Map';
 
 function App() {
   const routes = useRoutes([
@@ -67,6 +68,10 @@ function App() {
     {
       path: '/admin',
       element: <Admin />,
+    },
+    {
+      path: '/map',
+      element: <Map />,
     },
   ]);
 

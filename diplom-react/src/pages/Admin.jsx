@@ -1,8 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { Container, Row, Col } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 import CardItem from '../components/CardItem/CardItem';
 
