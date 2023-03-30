@@ -1,32 +1,27 @@
 import React from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { Col, Row, Container } from 'react-bootstrap';
+
 import FilterCard from '../../components/filterCard/FilterCard';
 import CardItem from '../../components/CardItem/CardItem';
-import { Link } from 'react-router-dom';
 
 const Technics = () => {
-  const items = [
-    {
-      name: 'Аспирин',
-      price: '200$',
-      img: 'https://12bb6ecf-bda5-4c99-816b-12bda79f6bd9.selcdn.net/upload//Photo_Tovar/1893699_5_1632177758.jpeg',
-      have: '20',
-      description1: 'ВТФ, Россия',
-      description2: 'капсулы',
-      description3: '30 шт.',
-    },
-    { name: 'На столе', price: 2 },
-    { name: 'Намекает', price: 2 },
-    { name: 'Жизнь', price: 2 },
-    { name: 'Не', price: 2 },
-    { name: 'Напрастна', price: 2 },
-    { name: 1, price: 2 },
-    { name: 2, price: 2 },
-    { name: 3, price: 2 },
-    { name: 4, price: 2 },
-    { name: 5, price: 2 },
-    { name: 6, price: 2 },
-  ];
+  const [item, setItem] = React.useState([]);
+
+  React.useEffect(() => {
+    async function loadUp() {
+      try {
+        const { data } = await axios.get(`https://63cd3f8bd4d47898e3955c33.mockapi.io/item`);
+        setItem(data);
+      } catch (error) {
+        console.log(error);
+      }
+
+      window.scrollTo(0, 0); //скролл в начало страницы
+    }
+    loadUp();
+  }, []);
   return (
     <>
       <Container>
@@ -49,7 +44,7 @@ const Technics = () => {
           </Col>
           <Col md="8">
             <Row>
-              {items.map((obj, index) => (
+              {item.map((obj, index) => (
                 <Col md="4" key={index}>
                   <CardItem key={index} {...obj} />
                 </Col>
