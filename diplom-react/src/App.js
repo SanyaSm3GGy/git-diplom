@@ -5,7 +5,7 @@ import './scss/app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './components/Header.jsx';
-// import Bottom from './components/Bottom.jsx';
+import Footer from './components/Footer';
 
 import Home from './pages/Home.jsx';
 import Info from './pages/Info';
@@ -81,8 +81,8 @@ function App() {
       <HeaderSub />
       <div className="wrapper">
         <div className="content">{routes /*Переход по ссылкам через router константу*/}</div>
+        <Footer />
       </div>
-      {/* <Bottom /> */}
     </>
   );
 }
