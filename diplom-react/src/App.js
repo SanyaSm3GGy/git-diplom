@@ -11,7 +11,7 @@ import Home from './pages/Home.jsx';
 import Info from './pages/Info';
 import Catalog from './pages/Catalog';
 import HeaderSub from './components/headers/HeaderSub';
-import Stock from './pages/Stock'
+import Stock from './pages/Stock';
 
 import LekarstvaIbad from './pages/CatalogPages/Lekarstva_I_Bad';
 import MamaIMalish from './pages/CatalogPages/MamaIMalish';
@@ -19,6 +19,7 @@ import Cosmetics from './pages/CatalogPages/Cosmetics';
 import Technics from './pages/CatalogPages/Technics';
 import Sertificats from './pages/CatalogPages/Sertificats';
 import Login from './pages/Login';
+import Admin from './pages/Admin';
 
 function App() {
   const routes = useRoutes([
@@ -62,6 +63,10 @@ function App() {
     {
       path: '/login',
       element: <Login />,
+    },
+    {
+      path: '/admin',
+      element: <Admin />,
     },
   ]);
 
