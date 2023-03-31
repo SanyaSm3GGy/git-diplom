@@ -1,1 +1,15 @@
-@import '../variables';
+@import "../variables";
+
+.stock_cards {
+  .card {
+    a{text-decoration: none; 
+    color:black
+    }
+    img {
+      width: 100%;
+      &:hover{
+        transform: scale(1.09);
+      }
+    }
+  }
+}

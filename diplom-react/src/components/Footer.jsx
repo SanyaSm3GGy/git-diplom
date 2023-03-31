@@ -41,7 +41,7 @@ const Bottom = () => {
             <Link to="/stock"> Акции </Link>
             <Link to="/info"> О компании </Link>
           </div>
-          <Link>У нас кста нет лицензий (еще студенты)</Link>
+          <Link to="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">У нас кста нет лицензий (еще студенты)</Link>
           <Link>И соглашеения тоже нет</Link>
         </Container>
       </div>
