@@ -5,7 +5,7 @@ const Map = () => {
   return (
     <Container>
       <Row className="justify-content-center align-items-center">
-        <Card style={{ width: '38rem' }}>
+        <Card style={{ width: '20rem' }}>
           <Card.Img
             variant="top"
             src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=15I54Y4YviCbNVODAgkAow&cb_client=search.gws-prod.gps&w=408&h=240&yaw=51.718857&pitch=0&thumbfov=100"
@@ -18,7 +18,7 @@ const Map = () => {
         </Card>
       </Row>
       <Row className="justify-content-center align-items-center">
-        <Card style={{ width: '38rem' }}>
+        <Card style={{ width: '20rem' }}>
           <Card.Img
             variant="top"
             src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=GVJwZgsGMIVLMMGavBX5Ig&cb_client=search.gws-prod.gps&w=408&h=240&yaw=288.0262&pitch=0&thumbfov=100"

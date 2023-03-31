@@ -20,6 +20,15 @@
     .card {
       padding: 0px;
       margin: 3px 10px 3px 10px;
+      transition: all ease-in-out 0.2s;
+      content: '';
+      &:hover {
+        box-shadow: 0px 0px 20px #fff;
+        img {
+          box-shadow: 0px 0px 50px #fff;
+          border-radius: 30px;
+        }
+      }
       .side-padding {
         padding: 0 10px 0 10px;
       }
@@ -42,6 +51,8 @@
       transition: all ease-in-out 0.2s;
       border-bottom: 1px solid rgb(255, 255, 255);
       border-top: 1px solid #fff;
+      border-left: 1px solid #e5e5e5;
+
       &:first-of-type {
         border-left: 1px solid #fff;
       }
