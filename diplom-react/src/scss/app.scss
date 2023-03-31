@@ -5,10 +5,15 @@
 
 body {
   background-color: $background !important;
+  height: 100%;
 }
-
+.content {
+  padding-bottom: 200px;
+}
 .wrapper {
   margin-top: 20px;
+  position: relative;
+  min-height: 100%;
   .adForCum {
     border-radius: 20px;
     display: flex;
@@ -53,16 +58,16 @@ body {
 .button-gray {
   font-size: 16px;
   text-decoration: none;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 30px;
-  background-color: #9a9a9a;
-  transition: 0.5s;
-  border: 1px solid #9a9a9a;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 30px !important;
+  background-color: #9a9a9a !important;
+  transition: 0.5s !important;
+  border: 1px solid #9a9a9a !important;
   &:hover {
-    background-color: white;
-    color: rgb(180, 24, 24);
-    border: 1px solid rgb(180, 24, 24);
+    background-color: white !important;
+    color: rgb(180, 24, 24) !important;
+    border: 1px solid rgb(180, 24, 24) !important;
   }
 }
 
@@ -134,4 +139,7 @@ body {
 }
 .dropdown-item:active {
   background-color: $blue !important;
+}
+.card {
+  box-shadow: 0px 0px 20px #b6b6b6;
 }

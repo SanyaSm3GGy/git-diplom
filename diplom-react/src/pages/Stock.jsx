@@ -4,10 +4,10 @@ import { Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 const Stock = () => {
-    return (
+  return (
     <>
-   <Container>
-  <nav aria-label="breadcrumb">
+      <Container>
+        <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
             <li className="breadcrumb-item">
               <Link to="/">Главная</Link>
