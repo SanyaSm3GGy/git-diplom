@@ -19,7 +19,8 @@ const FilterCard = () => {
                     От
                   </label>
                   <input
-                    value={range[0]}
+                    readOnly
+                    value={range[0] * 10}
                     type="text"
                     name="product_price_min"
                     id="filter-price-1"
@@ -28,7 +29,8 @@ const FilterCard = () => {
                 <div className="range-input">
                   <label htmlFor="filter-price-2">До</label>
                   <input
-                    value={range[1]}
+                    readOnly
+                    value={range[1] * 10}
                     type="text"
                     name="product_price_max"
                     id="filter-price-2"
@@ -36,7 +38,7 @@ const FilterCard = () => {
                 </div>
               </div>
               <div className="slider">
-                <Slider value={range} onChange={handleChanges} valueLabelDisplay="auto" />
+                <Slider value={range} onChange={handleChanges} valueLabelDisplay="off" />
               </div>
             </div>
           </div>
@@ -131,7 +133,9 @@ const FilterCard = () => {
         </div>
         <div className="filter-buttons">
           <button className="filter-action-item button">Применить</button>
-          <button className="filter-action-item button-gray">Сбросить</button>
+          <button className="filter-action-item button-gray" type="reset">
+            Сбросить
+          </button>
         </div>
       </div>
     </div>

@@ -7,6 +7,8 @@ import FilterCard from '../../components/filterCard/FilterCard';
 import CardItem from '../../components/CardItem/CardItem';
 
 const Lekarstva_i_bad = () => {
+  const [isLoading, setIsLoading] = React.useState(true);
+
   const [item, setItem] = React.useState([]);
 
   React.useEffect(() => {
@@ -19,6 +21,7 @@ const Lekarstva_i_bad = () => {
       }
 
       window.scrollTo(0, 0); //скролл в начало страницы
+      setIsLoading(false);
     }
     loadUp();
   }, []);
@@ -45,11 +48,17 @@ const Lekarstva_i_bad = () => {
           </Col>
           <Col md="8">
             <Row>
-              {item.map((obj, index) => (
-                <Col md="4" key={index}>
-                  <CardItem key={index} {...obj} />
-                </Col>
-              ))}
+              {isLoading
+                ? [...new Array(6).keys()].map((index) => (
+                    <Col md="4" key={index}>
+                      <CardItem key={index} />
+                    </Col>
+                  ))
+                : item.map((obj, index) => (
+                    <Col md="4" key={index}>
+                      <CardItem key={index} {...obj} />
+                    </Col>
+                  ))}
             </Row>
           </Col>
         </Row>
