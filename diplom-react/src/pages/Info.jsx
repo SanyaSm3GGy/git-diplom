@@ -10,13 +10,13 @@ const Info = () => {
   return (
     <>
       <Container>
-      <nav aria-label="breadcrumb">
+        <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
             <li className="breadcrumb-item">
               <Link to="/">Главная</Link>
             </li>
             <li className="breadcrumb-item active" aria-current="page">
-              Каталог
+              О компании
             </li>
           </ol>
         </nav>

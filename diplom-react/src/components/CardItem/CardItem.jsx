@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import NotFound from '../../assets/img/NotFound.jpg';
 
-const CardItem = ({ name, price, img, have, description1, description2, description3 }) => {
+const CardItem = ({ id, name, img, manufactureform, quantity, price }) => {
   const loadedImage = () => {
     if (img) {
       return img;
@@ -18,15 +18,14 @@ const CardItem = ({ name, price, img, have, description1, description2, descript
         <Card.Body>
           <Card.Title className="bold-title">{name}</Card.Title>
           <Card.Text>
-            Производитель: {description1}
+            Производитель / Форма выпуска:
+            <br /> {manufactureform}
             <br />
-            Форма выпуска: {description2}
             <br />
-            Кол-во в упаковке: {description3}
+            Кол-во в упаковке: {quantity}
             <br />
           </Card.Text>
-          <Card.Text>В наличии: {have}</Card.Text>
-          <Button className="button">{price}</Button>
+          <Button className="button">{price} ₽</Button>
         </Card.Body>
       </Card>
     </div>

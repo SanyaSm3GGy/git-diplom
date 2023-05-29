@@ -9,18 +9,21 @@ import CardItem from '../../components/CardItem/CardItem';
 const Sertificats = () => {
   const [item, setItem] = React.useState([]);
 
+  const [isLoading, setIsLoading] = React.useState(true);
+
   React.useEffect(() => {
     async function loadUp() {
       try {
-        const { data } = await axios.get(`https://63cd3f8bd4d47898e3955c33.mockapi.io/item`);
+        const { data } = await axios.get(`http://aptekaapi.ru/class4.php`);
         setItem(data);
       } catch (error) {
-        console.log(error);
+        console.log('error');
       }
 
       window.scrollTo(0, 0); //скролл в начало страницы
     }
     loadUp();
+    setIsLoading(false);
   }, []);
   return (
     <>
@@ -44,11 +47,17 @@ const Sertificats = () => {
           </Col>
           <Col md="8">
             <Row>
-              {item.map((obj, index) => (
-                <Col md="4" key={index}>
-                  <CardItem key={index} {...obj} />
-                </Col>
-              ))}
+              {isLoading
+                ? [...new Array(6).keys()].map((index) => (
+                    <Col md="4" key={index}>
+                      <CardItem key={index} />
+                    </Col>
+                  ))
+                : item.map((obj, index) => (
+                    <Col md="4" key={index}>
+                      <CardItem key={index} {...obj} />
+                    </Col>
+                  ))}
             </Row>
           </Col>
         </Row>

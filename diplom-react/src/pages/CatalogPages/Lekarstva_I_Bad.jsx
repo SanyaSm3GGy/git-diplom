@@ -14,7 +14,7 @@ const Lekarstva_i_bad = () => {
   React.useEffect(() => {
     async function loadUp() {
       try {
-        const { data } = await axios.get(`https://63cd3f8bd4d47898e3955c33.mockapi.io/item`);
+        const { data } = await axios(`http://aptekaapi.ru/class0.php`);
         setItem(data);
       } catch (error) {
         console.log(error);
