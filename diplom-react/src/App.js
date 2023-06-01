@@ -21,6 +21,7 @@ import Sertificats from './pages/CatalogPages/Sertificats';
 import Login from './pages/Login';
 import Admin from './pages/Admin';
 import Map from './pages/Map';
+import Cart from './pages/Cart';
 
 function App() {
   const routes = useRoutes([
@@ -66,12 +67,16 @@ function App() {
       element: <Login />,
     },
     {
-      path: '/admin',
+      path: '/loged',
       element: <Admin />,
     },
     {
       path: '/map',
       element: <Map />,
+    },
+    {
+      path: '/cart',
+      element: <Cart />,
     },
   ]);
 

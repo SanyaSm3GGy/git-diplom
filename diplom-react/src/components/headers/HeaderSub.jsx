@@ -44,7 +44,7 @@ const HeaderSub = () => {
                 </Form>
               </Nav>
               <Nav>
-                <Link className="button" to="/">
+                <Link className="button" to="/cart">
                   Корзина
                 </Link>
               </Nav>

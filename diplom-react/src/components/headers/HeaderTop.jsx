@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../scss/components/_header.scss';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -33,7 +33,7 @@ const HeaderTop = () => {
                 <br /> 8(937)371-35-15
               </Nav.Link>
             </Nav>
-            <Nav>
+            {/* <Nav>
               <div className="nav-link">
                 <Link to="/login" className="login">
                   <svg height="16px" width="16px" viewBox="0 0 60.671 60.671">
@@ -45,7 +45,7 @@ const HeaderTop = () => {
                   Вход или регистрация
                 </Link>
               </div>
-            </Nav>
+            </Nav> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

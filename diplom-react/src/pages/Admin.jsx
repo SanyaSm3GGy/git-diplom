@@ -10,7 +10,7 @@ const Admin = () => {
   React.useEffect(() => {
     async function loadUp() {
       try {
-        const { data } = await axios.get(`https://63cd3f8bd4d47898e3955c33.mockapi.io/item`);
+        const { data } = await axios.get(`http://aptekaapi.ru/`);
         setItem(data);
       } catch (error) {
         console.log(error);
@@ -47,15 +47,26 @@ const Admin = () => {
               <br />
               <input />
               <br />
-              Производитель: <input type="text" />
+              Название
+              <input type="text" />
               <br />
-              Форма выпуска: <input type="text" />
+              Производитель / Форма выпуска:
+              <input type="text" />
               <br />
-              Кол-во в упаковке: <input type="text" />
+              Тип
+              <div className="scrollbar-inner">
+                <select className="input_select" name="age_from" id="">
+                  <option defaultValue="">Выбрать!</option>
+                  <option defaultValue="0">Лекарства и БАД</option>
+                  <option defaultValue="1">Мама и малыш</option>
+                  <option defaultValue="2">Косметика</option>
+                  <option defaultValue="3">Медицинская техника</option>
+                  <option defaultValue="4">Сертификаты</option>
+                </select>
+              </div>
               <br />
-              В наличии: <input type="number" />
-              <br />
-              Цена: <input type="number" />
+              Цена:
+              <input type="number" />
             </Card.Text>
             <Button className="button">Создать</Button>
           </Card.Body>
