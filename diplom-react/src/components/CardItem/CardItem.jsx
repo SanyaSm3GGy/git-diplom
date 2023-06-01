@@ -3,14 +3,31 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import NotFound from '../../assets/img/NotFound.jpg';
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { addItem } from '../../redux/slices/cartSlice';
 
 const CardItem = ({ id, name, img, manufactureform, quantity, price }) => {
+  const items = useSelector((state) => state.cart.items.find((obj) => obj.id === id));
+
+  const addedCount = items ? items.count : 0;
+
   const loadedImage = () => {
     if (img) {
       return img;
     } else {
       return NotFound;
     }
+  };
+  const dispatch = useDispatch();
+  const onClickAdd = () => {
+    const item = {
+      id,
+      name,
+      img,
+      price,
+    };
+    dispatch(addItem(item));
   };
   return (
     <div>
@@ -26,13 +43,12 @@ const CardItem = ({ id, name, img, manufactureform, quantity, price }) => {
             <br />
             Кол-во в упаковке: {quantity}
             <br />
+            <Link className="price">{price} ₽</Link>
           </Card.Text>
-          <Button className="button button-cart">
-            Добавить <Link className="item-quantity"> 0</Link>
+          <Button className="button button-cart" onClick={onClickAdd}>
+            Добавить <Link className="item-quantity">{addedCount}</Link>
           </Button>
-          <Button className="button-gray button-cart">-</Button>
-          <br />
-          <Link className="price">{price} ₽</Link>
+          <Button className="button-gray button-cart">Убрать</Button>
         </Card.Body>
       </Card>
     </div>

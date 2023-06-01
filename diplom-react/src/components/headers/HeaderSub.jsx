@@ -6,8 +6,12 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { useSelector } from 'react-redux';
 
 const HeaderSub = () => {
+  const { items, totalprice, cartEmpty } = useSelector((state) => state.cart);
+  const totalCount = items.reduce((sum, item) => sum + item.count, 0);
+
   return (
     <>
       <Navbar sticky="top" bg="White" expand="xl" className="mb-3 headerSub">
@@ -44,9 +48,15 @@ const HeaderSub = () => {
                 </Form>
               </Nav>
               <Nav>
-                <Link className="button" to="/cart">
-                  Корзина
-                </Link>
+                {cartEmpty ? (
+                  <Link className="button" to="/cart">
+                    Корзина
+                  </Link>
+                ) : (
+                  <Link className="button" to="/cart">
+                    {totalprice} ₽|{totalCount}
+                  </Link>
+                )}
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

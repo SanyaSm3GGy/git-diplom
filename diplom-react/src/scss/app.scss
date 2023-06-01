@@ -144,7 +144,7 @@ body {
 .button-cart {
   color: $blue;
   padding: 2px 10px !important;
-  margin-right: 30px;
+  margin-right: 10px;
   .item-quantity {
     background-color: white;
     padding: 1px 10px;
@@ -163,8 +163,27 @@ body {
 .price {
   color: $blue;
   text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
   cursor: default;
   &:hover {
     color: $blue;
   }
+}
+.cart-empty-massage {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  h1 {
+    position: absolute;
+  }
+  img {
+    position: relative;
+    top: 10%;
+    order: 1;
+  }
+}
+.clear-cart {
+  color: #9a9a9a !important;
 }
