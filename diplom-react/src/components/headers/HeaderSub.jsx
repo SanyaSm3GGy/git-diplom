@@ -54,7 +54,7 @@ const HeaderSub = () => {
                   </Link>
                 ) : (
                   <Link className="button" to="/cart">
-                    {totalprice} ₽|{totalCount}
+                    {totalprice} ₽ |{totalCount}
                   </Link>
                 )}
               </Nav>

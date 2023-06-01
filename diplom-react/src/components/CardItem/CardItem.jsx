@@ -5,12 +5,16 @@ import NotFound from '../../assets/img/NotFound.jpg';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { addItem } from '../../redux/slices/cartSlice';
+import { addItem, removeItem } from '../../redux/slices/cartSlice';
 
 const CardItem = ({ id, name, img, manufactureform, quantity, price }) => {
   const items = useSelector((state) => state.cart.items.find((obj) => obj.id === id));
 
   const addedCount = items ? items.count : 0;
+
+  const onClickRemove = () => {
+    dispatch(removeItem(id));
+  };
 
   const loadedImage = () => {
     if (img) {
@@ -48,7 +52,9 @@ const CardItem = ({ id, name, img, manufactureform, quantity, price }) => {
           <Button className="button button-cart" onClick={onClickAdd}>
             Добавить <Link className="item-quantity">{addedCount}</Link>
           </Button>
-          <Button className="button-gray button-cart">Убрать</Button>
+          <Button className="button-gray button-cart" onClick={onClickRemove}>
+            Убрать
+          </Button>
         </Card.Body>
       </Card>
     </div>
