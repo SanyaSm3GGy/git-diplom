@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import NotFound from '../../assets/img/NotFound.jpg';
+import { Link } from 'react-router-dom';
 
 const CardItem = ({ id, name, img, manufactureform, quantity, price }) => {
   const loadedImage = () => {
@@ -19,13 +20,19 @@ const CardItem = ({ id, name, img, manufactureform, quantity, price }) => {
           <Card.Title className="bold-title">{name}</Card.Title>
           <Card.Text>
             Производитель / Форма выпуска:
-            <br /> {manufactureform}
+            <br />
+            {manufactureform}
             <br />
             <br />
             Кол-во в упаковке: {quantity}
             <br />
           </Card.Text>
-          <Button className="button">{price} ₽</Button>
+          <Button className="button button-cart">
+            Добавить <Link className="item-quantity"> 0</Link>
+          </Button>
+          <Button className="button-gray button-cart">-</Button>
+          <br />
+          <Link className="price">{price} ₽</Link>
         </Card.Body>
       </Card>
     </div>

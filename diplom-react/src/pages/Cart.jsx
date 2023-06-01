@@ -15,7 +15,7 @@ const Cart = () => {
           </li>
         </ol>
       </nav>
-      <h1>Корзина</h1>
+      <h1 className="bold-title">Корзина</h1>
     </Container>
   );
 };
