@@ -41,8 +41,10 @@ const Bottom = () => {
             <Link to="/stock"> Акции </Link>
             <Link to="/info"> О компании </Link>
           </div>
-          <Link to="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">У нас кста нет лицензий (еще студенты)</Link>
-          <Link>И соглашеения тоже нет</Link>
+          <Link to="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+            Лицензии
+          </Link>
+          <Link>Соглашения</Link>
         </Container>
       </div>
     </div>

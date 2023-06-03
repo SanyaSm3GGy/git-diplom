@@ -31,8 +31,14 @@ const cartSlice = createSlice({
       Price(state);
     },
     removeItem(state, action) {
-      state.items = state.items.filter((obj) => obj.id !== action.payload);
-      state.cartEmpty = true;
+      const findItems = state.items.find((obj) => obj.id === action.payload);
+      if (findItems) {
+        findItems.count--;
+        if (findItems.count === 0) {
+          state.items = state.items.filter((obj) => obj.id !== action.payload);
+        }
+      }
+      if (state.items.length === 0) state.cartEmpty = true;
       Price(state);
     },
     clearItems(state) {

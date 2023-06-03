@@ -2,10 +2,12 @@ import React from 'react';
 import axios from 'axios';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
-import CardItem from '../components/CardItem/CardItem';
+import AdminCardItem from '../components/CardItem/AdminCardItem';
 
 const Admin = () => {
   const [item, setItem] = React.useState([]);
+
+  let createItem = ['"img":"1"'];
 
   React.useEffect(() => {
     async function loadUp() {
@@ -24,12 +26,12 @@ const Admin = () => {
     <Container>
       <h1>Админ панель</h1>
       <Row>
-        {item.map((obj, index) => (
-          <Col md="3" key={index}>
-            <CardItem key={index} {...obj} />
+        {item.map((obj, i) => (
+          <Col md="3" key={i}>
+            <AdminCardItem key={obj.id} {...obj} />
             <Button
               className="button button-gray w-100"
-              key={index}
+              key={i}
               style={{
                 boxShadow: '0px 0px 20px #b6b6b6 ',
                 marginLeft: '12px',
@@ -45,7 +47,7 @@ const Admin = () => {
             <Card.Text>
               Вставить картинку(ссылка):
               <br />
-              <input />
+              <input defaultValue={createItem.img} onChange={(value) => setItem(value)} />
               <br />
               Название
               <input type="text" />
@@ -54,21 +56,25 @@ const Admin = () => {
               <input type="text" />
               <br />
               Тип
-              <div className="scrollbar-inner">
-                <select className="input_select" name="age_from" id="">
-                  <option defaultValue="">Выбрать!</option>
-                  <option defaultValue="0">Лекарства и БАД</option>
-                  <option defaultValue="1">Мама и малыш</option>
-                  <option defaultValue="2">Косметика</option>
-                  <option defaultValue="3">Медицинская техника</option>
-                  <option defaultValue="4">Сертификаты</option>
-                </select>
-              </div>
+              <select className="input_select" name="age_from" id="">
+                <option defaultValue="">Выбрать!</option>
+                <option defaultValue="0">Лекарства и БАД</option>
+                <option defaultValue="1">Мама и малыш</option>
+                <option defaultValue="2">Косметика</option>
+                <option defaultValue="3">Медицинская техника</option>
+                <option defaultValue="4">Сертификаты</option>
+              </select>
               <br />
               Цена:
               <input type="number" />
             </Card.Text>
-            <Button className="button">Создать</Button>
+            <Button
+              className="button"
+              onClick={() => {
+                console.log(createItem);
+              }}>
+              Создать
+            </Button>
           </Card.Body>
         </Card>
       </Row>
