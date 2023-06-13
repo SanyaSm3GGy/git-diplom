@@ -1,14 +1,21 @@
-@import "../variables";
+@import '../variables';
 
 .stock_cards {
   .card {
-    a{text-decoration: none; 
-    color:black
+    padding-top: 7px !important;
+    a {
+      text-decoration: none;
+      color: black;
     }
     img {
       width: 100%;
-      &:hover{
-        transform: scale(1.09);
+      border-radius: 14px;
+      transform: scale(1.1);
+      margin-top: 0;
+      margin-bottom: 10px;
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1);
       }
     }
   }

@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 
 const Login = () => {
+  const [userName, setUserName] = React.useState();
+  const [password, setPassword] = React.useState();
+
   return (
     <Container className="logincontainer">
       <Card className="login-box">
@@ -19,7 +22,12 @@ const Login = () => {
                         			C48.354,35.818,42.661,30.079,35.64,30.079z"></path>
               </svg>
             </span>
-            <input type="login" required className="login" />
+            <input
+              type="login"
+              required
+              className="login"
+              onChange={(event) => setUserName(event.target.value)}
+            />
             <label htmlFor="login">Логин</label>
           </div>
           <div className="input-box">
@@ -36,7 +44,12 @@ const Login = () => {
                 />
               </svg>
             </span>
-            <input type="password" required className="password" />
+            <input
+              type="password"
+              required
+              className="password"
+              onChange={(event) => setPassword(event.target.value)}
+            />
             <label htmlFor="password">Пароль</label>
           </div>
           <div className="rememberMe">
@@ -47,7 +60,13 @@ const Login = () => {
             <Link>Забыли пароль?</Link>
           </div>
           <div className="autorizate">
-            <button className="button login-button">Войти</button>
+            {userName === 'admin' && password === '123456' ? (
+              <Link className="button login-button" to="../loged">
+                Войти
+              </Link>
+            ) : (
+              <Link className="button login-button">Войти</Link>
+            )}
           </div>
           <div className="registerlink">
             <Link>Или зарегестрироваться</Link>
